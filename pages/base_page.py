@@ -8,8 +8,6 @@ from selenium.common.exceptions import NoSuchElementException
 import ast
 
 
-
-
 class BasePage:
 
     def __init__(self, driver, url, timeout=10):
